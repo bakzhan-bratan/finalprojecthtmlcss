@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/sign-in.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="hehe">
+                <a href="index.html">
+                    <img src="img/logo.png" alt="">
+                </a>
+            </div>
+            <div class="input-box">
+                <input class="input" type="search" placeholder="University">
+                <button class="input-btn">
+                    <img width="15" height="15" src="img/search.svg" alt="">
+                </button>
+            </div>
+            <div class="home">
+                <a href="index.html">
+                    Home
+                </a>
+            </div>
+            <div class="SignIn">
+                <a href="SignIn.html" target="_blank">
+                    Sign In
+                </a>
+            </div>
+            <div class="net">
+                <img class="menu-img" src="img/menu-bar.png" alt="">
+                <div class="menu-box">
+                    <div class="menu-box-a">
+                        <a href="list.html">
+                            Top 25 Universities List and how to get there?
+                         </a>
+                    </div>
+                     <div class="menu-box-a3">
+                        <a href="question.html">
+                            Most frequently asked questions!
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="form-conteiners-conteiner">
+            <div class="form-container">
+                <h2 class="form-title">Sign In</h2>
+                <form class="sign-in-form" method="post">
+                    <label class="form-label" for="username">Username:</label>
+                    <input class="form-input" type="text" id="username" name="username" required>
+                    
+                    <label class="form-label" for="surname">Surname:</label>
+                    <input class="form-input" type="text" id="surname" name="surname" required>
+                    
+                    <label class="form-label" for="phone">Phone Number:</label>
+                    <input class="form-input" type="text" id="phone" name="phone" required>
+                    
+                    <label class="form-label" for="grade">Grade (1-12):</label>
+                    <select class="form-input" id="grade" name="grade" required>
+                        <option value="" disabled selected>Select your grade</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                    </select>
+                    
+                    <label class="form-label" for="age">Age:</label>
+                    <input class="form-input" type="number" id="age" name="age" required min="1" max="100">
+
+                    <label class="form-label" for="comments">Comments:</label>
+                    <textarea class="form-input" id="comments" name="comments" rows="4"></textarea>
+                    
+                    <label class="form-label" for="comments">Write about a proffesion wich you will chose:</label>
+                    <textarea class="form-input" id="comments" name="comments" rows="4"></textarea>
+                    
+                    <label class="form-label" for="password">Password:</label>
+                    <input class="form-input" type="password" id="password" name="password" required>
+                    
+                    <input class="form-submit" type="submit" value="Sign In">
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

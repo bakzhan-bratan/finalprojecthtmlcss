@@ -1,0 +1,392 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: darkolivegreen;
+}
+
+header{
+    background-color: chocolate;
+    width: 100%;
+    height: 150px;
+    position: fixed;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hehe img{
+    width: 170px;
+    height: 150px;
+}
+
+ .input-box{
+    display: flex;
+    align-items: center;
+    background-color: hsla(0,0%,100%,.15);
+    border-radius: 9px;
+    width: 400px;
+    height: 40px;
+    position: relative;
+ }
+
+.input-btn{
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: 30px;
+    cursor: pointer;
+}
+
+.input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    padding: 8px 12px;
+}
+
+.home{
+    font-size: 20px;
+    background: linear-gradient(0deg, rgba(52,162,163,1) 24%, rgba(122,96,40,1) 74%);
+    color: #fff;
+    padding: 13px;
+    border-radius: 40px; 
+    transition-duration: 0.5s;
+}
+
+.home:hover{
+    transform: scale(0.90);
+    opacity: 85%;
+}
+
+.SignIn{
+    font-size: 20px;
+    background: linear-gradient(0deg, rgba(52,162,163,1) 24%, rgba(122,96,40,1) 74%);
+    color: #fff;
+    padding: 13px;
+    border-radius: 40px; 
+    transition-duration: 0.5s;
+}
+
+.SignIn:hover{
+    transform: scale(0.90);
+    opacity: 85%;
+}
+
+.net{
+    display: block;
+    position: relative;
+}
+
+a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+.menu-img{
+    width: 100px;
+    height: 100px;
+}
+
+.menu-box{
+    width: 217.1px;
+    position: absolute;
+    background-color: chocolate;
+    padding: 10px;
+    border: 10px solid rgb(52,162,163);
+    border-radius: 5px;
+    top: 80px;
+    right: 15px;
+    display: none;
+    line-height: 20px;
+}
+
+.menu-box-a:hover{
+    opacity: 55%;
+}
+
+.menu-box-a3:hover{
+    opacity: 55%;
+}
+
+.net:hover .menu-box{
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 200px;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.main-h1{
+    padding-bottom: 20px;
+    color: tomato;
+}
+
+main h1{
+    color: darksalmon;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+
+main p{
+    color: gold;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+main li{
+    color: chartreuse;
+}
+
+section{
+    display: grid;
+    align-items: center;
+    width: 67,5%;
+    height: auto;
+}
+
+.u-1{
+    border: 10px solid rgb(47, 59, 79);
+    border-radius: 20px;
+}
+
+.u-1-video{
+    border-radius: 10px;
+    width: 100%;
+}
+
+.u-2{
+    display: grid;
+    align-items: start;
+    margin-top: 20px;
+    border: 10px solid rgb(47, 59, 79);
+    border-radius: 20px;
+}
+
+.u-2-video{
+    border-radius: 10px;
+    width: 100%;
+}
+
+.u-3{
+    display: grid;
+    align-items: start;
+    margin-top: 20px;
+    border: 10px solid rgb(47, 59, 79);
+    border-radius: 20px;
+}
+
+.u-3-video{
+    border-radius: 10px;
+    width: 100%;
+}
+
+.u-4{
+    display: grid;
+    align-items: start;
+    margin-top: 20px;
+    border: 10px solid rgb(47, 59, 79);
+    border-radius: 20px;
+}
+
+.u-4-video{
+    border-radius: 10px;
+    width: 100%;
+}
+
+.u-5{
+    display: grid;
+    align-items: start;
+    margin-top: 20px;
+    border: 10px solid rgb(47, 59, 79);
+    border-radius: 20px;
+}
+
+.u-5-video{
+    border-radius: 10px;
+    width: 100%;
+}
+
+.u-6{
+    display: grid;
+    align-items: start;
+    margin-top: 20px;
+    border: 10px solid rgb(47, 59, 79);
+    border-radius: 20px;
+}
+
+.u-6-video{
+    border-radius: 10px;
+    width: 100%;
+}
+
+.u-7{
+    display: grid;
+    align-items: start;
+    margin-top: 20px;
+    border: 10px solid rgb(47, 59, 79);
+    border-radius: 20px;
+}
+
+.u-7-video{
+    border-radius: 10px;
+    width: 100%;
+}
+
+.u-8{
+    display: grid;
+    align-items: start;
+    margin-top: 20px;
+    border: 10px solid rgb(47, 59, 79);
+    border-radius: 20px;
+}
+
+.u-8-video{
+    border-radius: 10px;
+    width: 100%;
+}
+
+.u-9{
+    display: grid;
+    align-items: start;
+    margin-top: 20px;
+    border: 10px solid rgb(47, 59, 79);
+    border-radius: 20px;
+}
+
+.u-9-video{
+    border-radius: 10px;
+    width: 100%;
+}
+
+.u-10{
+    display: grid;
+    align-items: start;
+    margin-top: 20px;
+    border: 10px solid rgb(47, 59, 79);
+    border-radius: 20px;
+}
+
+.u-10-video{
+    border-radius: 10px;
+    width: 100%;
+}
+
+main a{
+    font-size: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: blue;
+    transition-duration: 0.5s;
+    text-align: center;
+}
+
+main a:hover{
+    opacity: 40%;
+}
+
+footer h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer p{
+    text-align: center;
+    margin-bottom: 30px;
+    padding-top: 10px;
+}
+
+footer div{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    color: #fff;
+    padding-top: 150px;
+    font-size: 30px;
+}
+
+@media (min-width: 1064px) {
+    main {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .home, .SignIn {
+        font-size: 18px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 992px) {
+    main a {
+        font-size: 20px;
+        margin: 20px 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .menu-box {
+        width: 100%;
+        right: 0;
+        top: 60px;
+    }
+
+    .home, .SignIn {
+        text-align: center;
+    }
+
+    main {
+        padding-top: 160px;
+    }
+
+    footer div {
+        height: 200px;
+    }
+}
+
+@media (max-width: 576px) {
+    .input-box {
+        width: 0;
+    }
+
+    .input-btn{
+        display: none;
+    }
+
+    main {
+        padding-top: 200px;
+    }
+
+    .menu-img {
+        width: 80px;
+        height: 80px;
+    }
+
+    footer h1 {
+        font-size: 18px;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+}
